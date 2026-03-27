@@ -1,0 +1,15 @@
+# Archivos de compilación de ROS 2
+build/
+install/
+log/
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db

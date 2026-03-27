@@ -1,0 +1,57 @@
+[0.008s] Invoking command in '/home/laura/ros2_ws/build/robot_arm_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/laura/ros2_ws/src/robot_arm_urdf -DCMAKE_INSTALL_PREFIX=/home/laura/ros2_ws/install/robot_arm_urdf
+[0.058s] -- The C compiler identification is GNU 13.3.0
+[0.114s] -- The CXX compiler identification is GNU 13.3.0
+[0.128s] -- Detecting C compiler ABI info
+[0.209s] -- Detecting C compiler ABI info - done
+[0.217s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.217s] -- Detecting C compile features
+[0.218s] -- Detecting C compile features - done
+[0.225s] -- Detecting CXX compiler ABI info
+[0.312s] -- Detecting CXX compiler ABI info - done
+[0.322s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.322s] -- Detecting CXX compile features
+[0.322s] -- Detecting CXX compile features - done
+[0.326s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.459s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.657s] -- Configuring done (0.6s)
+[0.659s] -- Generating done (0.0s)
+[0.661s] -- Build files have been written to: /home/laura/ros2_ws/build/robot_arm_urdf
+[0.666s] Invoked command in '/home/laura/ros2_ws/build/robot_arm_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/laura/ros2_ws/src/robot_arm_urdf -DCMAKE_INSTALL_PREFIX=/home/laura/ros2_ws/install/robot_arm_urdf
+[0.667s] Invoking command in '/home/laura/ros2_ws/build/robot_arm_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/laura/ros2_ws/build/robot_arm_urdf -- -j8 -l8
+[0.698s] Invoked command in '/home/laura/ros2_ws/build/robot_arm_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/laura/ros2_ws/build/robot_arm_urdf -- -j8 -l8
+[0.707s] Invoking command in '/home/laura/ros2_ws/build/robot_arm_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/laura/ros2_ws/build/robot_arm_urdf
+[0.713s] -- Install configuration: ""
+[0.713s] -- Installing: /home/laura/ros2_ws/install/robot_arm_urdf/share/robot_arm_urdf/config
+[0.713s] -- Installing: /home/laura/ros2_ws/install/robot_arm_urdf/share/robot_arm_urdf/config/joint_names_robot_arm_urdf.yaml
+[0.714s] -- Installing: /home/laura/ros2_ws/install/robot_arm_urdf/share/robot_arm_urdf/launch
+[0.714s] -- Installing: /home/laura/ros2_ws/install/robot_arm_urdf/share/robot_arm_urdf/launch/gazebo.launch
+[0.714s] -- Installing: /home/laura/ros2_ws/install/robot_arm_urdf/share/robot_arm_urdf/launch/display.launch
+[0.714s] -- Installing: /home/laura/ros2_ws/install/robot_arm_urdf/share/robot_arm_urdf/meshes
+[0.714s] -- Installing: /home/laura/ros2_ws/install/robot_arm_urdf/share/robot_arm_urdf/meshes/link_4.STL
+[0.714s] -- Installing: /home/laura/ros2_ws/install/robot_arm_urdf/share/robot_arm_urdf/meshes/link_5.STL
+[0.714s] -- Installing: /home/laura/ros2_ws/install/robot_arm_urdf/share/robot_arm_urdf/meshes/link_1.STL
+[0.714s] -- Installing: /home/laura/ros2_ws/install/robot_arm_urdf/share/robot_arm_urdf/meshes/base_link.STL
+[0.714s] -- Installing: /home/laura/ros2_ws/install/robot_arm_urdf/share/robot_arm_urdf/meshes/link_3.STL
+[0.714s] -- Installing: /home/laura/ros2_ws/install/robot_arm_urdf/share/robot_arm_urdf/meshes/link_7.STL
+[0.714s] -- Installing: /home/laura/ros2_ws/install/robot_arm_urdf/share/robot_arm_urdf/meshes/link_2.STL
+[0.714s] -- Installing: /home/laura/ros2_ws/install/robot_arm_urdf/share/robot_arm_urdf/meshes/link_6.STL
+[0.715s] -- Installing: /home/laura/ros2_ws/install/robot_arm_urdf/share/robot_arm_urdf/urdf
+[0.715s] -- Installing: /home/laura/ros2_ws/install/robot_arm_urdf/share/robot_arm_urdf/urdf/robot_arm_urdf.csv
+[0.715s] -- Installing: /home/laura/ros2_ws/install/robot_arm_urdf/share/robot_arm_urdf/urdf/robot_arm_urdf.urdf
+[0.715s] -- Installing: /home/laura/ros2_ws/install/robot_arm_urdf/share/robot_arm_urdf/textures
+[0.715s] -- Installing: /home/laura/ros2_ws/install/robot_arm_urdf/share/ament_index/resource_index/package_run_dependencies/robot_arm_urdf
+[0.715s] -- Installing: /home/laura/ros2_ws/install/robot_arm_urdf/share/ament_index/resource_index/parent_prefix_path/robot_arm_urdf
+[0.715s] -- Installing: /home/laura/ros2_ws/install/robot_arm_urdf/share/robot_arm_urdf/environment/ament_prefix_path.sh
+[0.715s] -- Installing: /home/laura/ros2_ws/install/robot_arm_urdf/share/robot_arm_urdf/environment/ament_prefix_path.dsv
+[0.715s] -- Installing: /home/laura/ros2_ws/install/robot_arm_urdf/share/robot_arm_urdf/environment/path.sh
+[0.715s] -- Installing: /home/laura/ros2_ws/install/robot_arm_urdf/share/robot_arm_urdf/environment/path.dsv
+[0.716s] -- Installing: /home/laura/ros2_ws/install/robot_arm_urdf/share/robot_arm_urdf/local_setup.bash
+[0.716s] -- Installing: /home/laura/ros2_ws/install/robot_arm_urdf/share/robot_arm_urdf/local_setup.sh
+[0.716s] -- Installing: /home/laura/ros2_ws/install/robot_arm_urdf/share/robot_arm_urdf/local_setup.zsh
+[0.716s] -- Installing: /home/laura/ros2_ws/install/robot_arm_urdf/share/robot_arm_urdf/local_setup.dsv
+[0.716s] -- Installing: /home/laura/ros2_ws/install/robot_arm_urdf/share/robot_arm_urdf/package.dsv
+[0.716s] -- Installing: /home/laura/ros2_ws/install/robot_arm_urdf/share/ament_index/resource_index/packages/robot_arm_urdf
+[0.716s] -- Installing: /home/laura/ros2_ws/install/robot_arm_urdf/share/robot_arm_urdf/cmake/robot_arm_urdfConfig.cmake
+[0.716s] -- Installing: /home/laura/ros2_ws/install/robot_arm_urdf/share/robot_arm_urdf/cmake/robot_arm_urdfConfig-version.cmake
+[0.716s] -- Installing: /home/laura/ros2_ws/install/robot_arm_urdf/share/robot_arm_urdf/package.xml
+[0.718s] Invoked command in '/home/laura/ros2_ws/build/robot_arm_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/laura/ros2_ws/build/robot_arm_urdf

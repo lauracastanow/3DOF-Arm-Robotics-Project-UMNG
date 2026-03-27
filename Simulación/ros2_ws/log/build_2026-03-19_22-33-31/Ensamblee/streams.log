@@ -1,0 +1,36 @@
+[0.007s] Invoking command in '/home/laura/ros2_ws/build/Ensamblee': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/laura/ros2_ws/build/Ensamblee -- -j8 -l8
+[0.037s] Invoked command in '/home/laura/ros2_ws/build/Ensamblee' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/laura/ros2_ws/build/Ensamblee -- -j8 -l8
+[0.045s] Invoking command in '/home/laura/ros2_ws/build/Ensamblee': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/laura/ros2_ws/build/Ensamblee
+[0.051s] -- Install configuration: ""
+[0.051s] -- Up-to-date: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/launch
+[0.051s] -- Up-to-date: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/launch/display.launch.py
+[0.051s] -- Up-to-date: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/launch/gazebo.launch
+[0.051s] -- Up-to-date: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/launch/display.launch
+[0.051s] -- Installing: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/launch/gazebo.launch.py
+[0.052s] -- Up-to-date: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/meshes
+[0.052s] -- Up-to-date: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/meshes/base_giratoria.STL
+[0.052s] -- Up-to-date: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/meshes/brazo_inferior.STL
+[0.052s] -- Up-to-date: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/meshes/brazo_superior.STL
+[0.052s] -- Up-to-date: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/meshes/dedo_3.STL
+[0.052s] -- Up-to-date: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/meshes/dedo_2.STL
+[0.052s] -- Up-to-date: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/meshes/base_link.STL
+[0.052s] -- Up-to-date: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/meshes/dedo_1.STL
+[0.052s] -- Up-to-date: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/urdf
+[0.052s] -- Up-to-date: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/urdf/Ensamblee.csv
+[0.052s] -- Up-to-date: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/urdf/Ensamblee.urdf
+[0.052s] -- Up-to-date: /home/laura/ros2_ws/install/Ensamblee/share/ament_index/resource_index/package_run_dependencies/Ensamblee
+[0.052s] -- Up-to-date: /home/laura/ros2_ws/install/Ensamblee/share/ament_index/resource_index/parent_prefix_path/Ensamblee
+[0.052s] -- Up-to-date: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/environment/ament_prefix_path.sh
+[0.052s] -- Up-to-date: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/environment/ament_prefix_path.dsv
+[0.053s] -- Up-to-date: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/environment/path.sh
+[0.053s] -- Up-to-date: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/environment/path.dsv
+[0.053s] -- Up-to-date: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/local_setup.bash
+[0.053s] -- Up-to-date: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/local_setup.sh
+[0.053s] -- Up-to-date: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/local_setup.zsh
+[0.053s] -- Up-to-date: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/local_setup.dsv
+[0.053s] -- Up-to-date: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/package.dsv
+[0.053s] -- Up-to-date: /home/laura/ros2_ws/install/Ensamblee/share/ament_index/resource_index/packages/Ensamblee
+[0.053s] -- Up-to-date: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/cmake/EnsambleeConfig.cmake
+[0.053s] -- Up-to-date: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/cmake/EnsambleeConfig-version.cmake
+[0.053s] -- Up-to-date: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/package.xml
+[0.054s] Invoked command in '/home/laura/ros2_ws/build/Ensamblee' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/laura/ros2_ws/build/Ensamblee

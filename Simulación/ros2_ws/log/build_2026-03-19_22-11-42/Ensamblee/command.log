@@ -1,0 +1,2 @@
+Invoking command in '/home/laura/ros2_ws/build/Ensamblee': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/laura/ros2_ws/src/brazo_robotico_urdf/Ensamblee -DCMAKE_INSTALL_PREFIX=/home/laura/ros2_ws/install/Ensamblee
+Invoked command in '/home/laura/ros2_ws/build/Ensamblee' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/laura/ros2_ws/src/brazo_robotico_urdf/Ensamblee -DCMAKE_INSTALL_PREFIX=/home/laura/ros2_ws/install/Ensamblee

@@ -1,0 +1,8 @@
+source;share/Ensamblee/hook/cmake_prefix_path.ps1
+source;share/Ensamblee/hook/cmake_prefix_path.dsv
+source;share/Ensamblee/hook/cmake_prefix_path.sh
+source;share/Ensamblee/local_setup.bash
+source;share/Ensamblee/local_setup.dsv
+source;share/Ensamblee/local_setup.ps1
+source;share/Ensamblee/local_setup.sh
+source;share/Ensamblee/local_setup.zsh

@@ -1,0 +1,36 @@
+-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/laura/ros2_ws/build/Ensamblee
+-- Install configuration: ""
+-- Installing: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/launch
+-- Installing: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/launch/display.launch.py
+-- Installing: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/launch/gazebo.launch
+-- Installing: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/launch/display.launch
+-- Installing: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/meshes
+-- Installing: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/meshes/base_giratoria.STL
+-- Installing: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/meshes/brazo_inferior.STL
+-- Installing: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/meshes/brazo_superior.STL
+-- Installing: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/meshes/dedo_3.STL
+-- Installing: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/meshes/dedo_2.STL
+-- Installing: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/meshes/base_link.STL
+-- Installing: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/meshes/dedo_1.STL
+-- Installing: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/urdf
+-- Installing: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/urdf/Ensamblee.csv
+-- Installing: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/urdf/Ensamblee.urdf
+-- Installing: /home/laura/ros2_ws/install/Ensamblee/share/ament_index/resource_index/package_run_dependencies/Ensamblee
+-- Installing: /home/laura/ros2_ws/install/Ensamblee/share/ament_index/resource_index/parent_prefix_path/Ensamblee
+-- Installing: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/environment/ament_prefix_path.sh
+-- Installing: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/environment/ament_prefix_path.dsv
+-- Installing: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/environment/path.sh
+-- Installing: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/environment/path.dsv
+-- Installing: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/local_setup.bash
+-- Installing: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/local_setup.sh
+-- Installing: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/local_setup.zsh
+-- Installing: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/local_setup.dsv
+-- Installing: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/package.dsv
+-- Installing: /home/laura/ros2_ws/install/Ensamblee/share/ament_index/resource_index/packages/Ensamblee
+-- Installing: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/cmake/EnsambleeConfig.cmake
+-- Installing: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/cmake/EnsambleeConfig-version.cmake
+-- Installing: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/package.xml

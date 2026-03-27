@@ -1,0 +1,4 @@
+source;share/Ensamblee/local_setup.bash
+source;share/Ensamblee/local_setup.dsv
+source;share/Ensamblee/local_setup.sh
+source;share/Ensamblee/local_setup.zsh
