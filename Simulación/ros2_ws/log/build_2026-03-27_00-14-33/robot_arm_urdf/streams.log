@@ -1,0 +1,32 @@
+[0.008s] Invoking command in '/home/laura/ros2_ws/build/robot_arm_urdf': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/laura/ros2_ws/src/robot_arm_urdf -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/laura/ros2_ws/install/robot_arm_urdf
+[0.117s] -- The C compiler identification is GNU 13.3.0
+[0.223s] -- The CXX compiler identification is GNU 13.3.0
+[0.238s] -- Detecting C compiler ABI info
+[0.317s] -- Detecting C compiler ABI info - done
+[0.326s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.326s] -- Detecting C compile features
+[0.327s] -- Detecting C compile features - done
+[0.335s] -- Detecting CXX compiler ABI info
+[0.421s] -- Detecting CXX compiler ABI info - done
+[0.430s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.430s] -- Detecting CXX compile features
+[0.431s] -- Detecting CXX compile features - done
+[0.442s] [31mCMake Error at CMakeLists.txt:8 (find_package):
+[0.442s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.443s]   has asked CMake to find a package configuration file provided by
+[0.443s]   "ament_cmake", but CMake did not find one.
+[0.443s] 
+[0.443s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.443s]   any of the following names:
+[0.443s] 
+[0.443s]     ament_cmakeConfig.cmake
+[0.443s]     ament_cmake-config.cmake
+[0.443s] 
+[0.443s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.444s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.444s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.444s]   has been installed.
+[0.444s] 
+[0.444s] [0m
+[0.446s] -- Configuring incomplete, errors occurred!
+[0.448s] Invoked command in '/home/laura/ros2_ws/build/robot_arm_urdf' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/laura/ros2_ws/src/robot_arm_urdf -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/laura/ros2_ws/install/robot_arm_urdf

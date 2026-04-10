@@ -1,2 +1,1 @@
-source;share/Ensamblee/environment/ament_prefix_path.sh
-source;share/Ensamblee/environment/path.sh
+/home/laura/ros2_ws/build/Ensamblee/ament_cmake_environment_hooks/local_setup.dsv

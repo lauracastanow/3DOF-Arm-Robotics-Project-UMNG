@@ -1,0 +1,43 @@
+[0.009s] Invoking command in '/home/laura/ros2_ws/build/Ensamblee': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/laura/ros2_ws/src/brazo_robotico_urdf/Ensamblee -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/laura/ros2_ws/install/Ensamblee
+[0.070s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.216s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.302s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.435s] WARNING: Package name "Ensamblee" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[0.456s] -- Configuring done (0.4s)
+[0.459s] -- Generating done (0.0s)
+[0.460s] -- Build files have been written to: /home/laura/ros2_ws/build/Ensamblee
+[0.463s] Invoked command in '/home/laura/ros2_ws/build/Ensamblee' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/laura/ros2_ws/src/brazo_robotico_urdf/Ensamblee -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/laura/ros2_ws/install/Ensamblee
+[0.463s] Invoking command in '/home/laura/ros2_ws/build/Ensamblee': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/laura/ros2_ws/build/Ensamblee -- -j8 -l8
+[0.501s] Invoked command in '/home/laura/ros2_ws/build/Ensamblee' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/laura/ros2_ws/build/Ensamblee -- -j8 -l8
+[0.513s] Invoking command in '/home/laura/ros2_ws/build/Ensamblee': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/laura/ros2_ws/build/Ensamblee
+[0.522s] -- Install configuration: ""
+[0.523s] -- Execute custom install script
+[0.523s] -- Symlinking: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/launch/display.launch
+[0.531s] -- Symlinking: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/launch/display.launch.py
+[0.541s] -- Symlinking: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/launch/gazebo.launch
+[0.549s] -- Symlinking: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/launch/gazebo.launch.py
+[0.559s] -- Symlinking: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/meshes/base_giratoria.STL
+[0.567s] -- Symlinking: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/meshes/base_link.STL
+[0.577s] -- Symlinking: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/meshes/brazo_inferior.STL
+[0.586s] -- Symlinking: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/meshes/brazo_superior.STL
+[0.595s] -- Symlinking: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/meshes/dedo_1.STL
+[0.606s] -- Symlinking: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/meshes/dedo_2.STL
+[0.614s] -- Symlinking: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/meshes/dedo_3.STL
+[0.624s] -- Symlinking: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/urdf/Ensamblee.csv
+[0.632s] -- Symlinking: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/urdf/Ensamblee.urdf
+[0.642s] -- Symlinking: /home/laura/ros2_ws/install/Ensamblee/share/ament_index/resource_index/package_run_dependencies/Ensamblee
+[0.651s] -- Symlinking: /home/laura/ros2_ws/install/Ensamblee/share/ament_index/resource_index/parent_prefix_path/Ensamblee
+[0.660s] -- Symlinking: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/environment/ament_prefix_path.sh
+[0.668s] -- Symlinking: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/environment/ament_prefix_path.dsv
+[0.677s] -- Symlinking: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/environment/path.sh
+[0.685s] -- Symlinking: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/environment/path.dsv
+[0.693s] -- Symlinking: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/local_setup.bash
+[0.702s] -- Symlinking: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/local_setup.sh
+[0.711s] -- Symlinking: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/local_setup.zsh
+[0.720s] -- Symlinking: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/local_setup.dsv
+[0.728s] -- Symlinking: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/package.dsv
+[0.737s] -- Symlinking: /home/laura/ros2_ws/install/Ensamblee/share/ament_index/resource_index/packages/Ensamblee
+[0.746s] -- Symlinking: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/cmake/EnsambleeConfig.cmake
+[0.756s] -- Symlinking: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/cmake/EnsambleeConfig-version.cmake
+[0.765s] -- Symlinking: /home/laura/ros2_ws/install/Ensamblee/share/Ensamblee/package.xml
+[0.777s] Invoked command in '/home/laura/ros2_ws/build/Ensamblee' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/laura/ros2_ws/build/Ensamblee

@@ -32,6 +32,13 @@ El robot ("Bracito") es un manipulador que cuenta con los siguientes grados de l
 * **Joint 3 (Codo):** Elevación del segundo eslabón.
 * **Joints 4, 5 y 6:** Pinza de 3 dedos configurada con plugins *Mimic* en Gazebo, permitiendo que la actuación de un solo motor cierre o abra la pinza completa de manera síncrona.
 
+![Ensamblaje General SolidWorks](Docs/Ensamblaje General SW.png)
+
+El modelo permite calcular:
+* Cinemática inversa
+* Posición del efector final
+![Interfaz de Control Maestro y Gazebo funcionando](Simulación/Simulacion_Gazebo_interfaz.jpg)
+
 ---
 
 ## Paquetes, Dependencias y Librerías

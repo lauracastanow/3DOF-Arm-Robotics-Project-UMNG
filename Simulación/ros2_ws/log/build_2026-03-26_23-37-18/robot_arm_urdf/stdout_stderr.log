@@ -1,0 +1,35 @@
+-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/laura/ros2_ws/build/robot_arm_urdf
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/laura/ros2_ws/install/robot_arm_urdf/share/robot_arm_urdf/config/joint_names_robot_arm_urdf.yaml
+-- Symlinking: /home/laura/ros2_ws/install/robot_arm_urdf/share/robot_arm_urdf/launch/display.launch
+-- Symlinking: /home/laura/ros2_ws/install/robot_arm_urdf/share/robot_arm_urdf/launch/gazebo.launch
+-- Symlinking: /home/laura/ros2_ws/install/robot_arm_urdf/share/robot_arm_urdf/meshes/base_link.STL
+-- Symlinking: /home/laura/ros2_ws/install/robot_arm_urdf/share/robot_arm_urdf/meshes/link_1.STL
+-- Symlinking: /home/laura/ros2_ws/install/robot_arm_urdf/share/robot_arm_urdf/meshes/link_2.STL
+-- Symlinking: /home/laura/ros2_ws/install/robot_arm_urdf/share/robot_arm_urdf/meshes/link_3.STL
+-- Symlinking: /home/laura/ros2_ws/install/robot_arm_urdf/share/robot_arm_urdf/meshes/link_4.STL
+-- Symlinking: /home/laura/ros2_ws/install/robot_arm_urdf/share/robot_arm_urdf/meshes/link_5.STL
+-- Symlinking: /home/laura/ros2_ws/install/robot_arm_urdf/share/robot_arm_urdf/meshes/link_6.STL
+-- Symlinking: /home/laura/ros2_ws/install/robot_arm_urdf/share/robot_arm_urdf/meshes/link_7.STL
+-- Symlinking: /home/laura/ros2_ws/install/robot_arm_urdf/share/robot_arm_urdf/urdf/robot_arm_urdf.csv
+-- Symlinking: /home/laura/ros2_ws/install/robot_arm_urdf/share/robot_arm_urdf/urdf/robot_arm_urdf.urdf
+-- Symlinking: /home/laura/ros2_ws/install/robot_arm_urdf/share/ament_index/resource_index/package_run_dependencies/robot_arm_urdf
+-- Symlinking: /home/laura/ros2_ws/install/robot_arm_urdf/share/ament_index/resource_index/parent_prefix_path/robot_arm_urdf
+-- Symlinking: /home/laura/ros2_ws/install/robot_arm_urdf/share/robot_arm_urdf/environment/ament_prefix_path.sh
+-- Symlinking: /home/laura/ros2_ws/install/robot_arm_urdf/share/robot_arm_urdf/environment/ament_prefix_path.dsv
+-- Symlinking: /home/laura/ros2_ws/install/robot_arm_urdf/share/robot_arm_urdf/environment/path.sh
+-- Symlinking: /home/laura/ros2_ws/install/robot_arm_urdf/share/robot_arm_urdf/environment/path.dsv
+-- Symlinking: /home/laura/ros2_ws/install/robot_arm_urdf/share/robot_arm_urdf/local_setup.bash
+-- Symlinking: /home/laura/ros2_ws/install/robot_arm_urdf/share/robot_arm_urdf/local_setup.sh
+-- Symlinking: /home/laura/ros2_ws/install/robot_arm_urdf/share/robot_arm_urdf/local_setup.zsh
+-- Symlinking: /home/laura/ros2_ws/install/robot_arm_urdf/share/robot_arm_urdf/local_setup.dsv
+-- Symlinking: /home/laura/ros2_ws/install/robot_arm_urdf/share/robot_arm_urdf/package.dsv
+-- Symlinking: /home/laura/ros2_ws/install/robot_arm_urdf/share/ament_index/resource_index/packages/robot_arm_urdf
+-- Symlinking: /home/laura/ros2_ws/install/robot_arm_urdf/share/robot_arm_urdf/cmake/robot_arm_urdfConfig.cmake
+-- Symlinking: /home/laura/ros2_ws/install/robot_arm_urdf/share/robot_arm_urdf/cmake/robot_arm_urdfConfig-version.cmake
+-- Symlinking: /home/laura/ros2_ws/install/robot_arm_urdf/share/robot_arm_urdf/package.xml

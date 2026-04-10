@@ -1,0 +1,4 @@
+Invoking command in '/home/laura/ros2_ws/build/Ensamblee': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/laura/ros2_ws/build/Ensamblee -- -j8 -l8
+Invoked command in '/home/laura/ros2_ws/build/Ensamblee' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/laura/ros2_ws/build/Ensamblee -- -j8 -l8
+Invoking command in '/home/laura/ros2_ws/build/Ensamblee': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/laura/ros2_ws/build/Ensamblee
+Invoked command in '/home/laura/ros2_ws/build/Ensamblee' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/laura/ros2_ws/build/Ensamblee
