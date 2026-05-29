@@ -1,0 +1,47 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (0.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/laura/ros2_ws/build/ensamble_general_urdf
+-- Install configuration: ""
+-- Installing: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/launch
+-- Installing: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/launch/display.launch.py
+-- Installing: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/launch/gazebo.launch.py
+-- Installing: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/meshes
+-- Installing: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/meshes/soporte_pinza.STL
+-- Installing: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/meshes/base_giratoria.STL
+-- Installing: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/meshes/dedo_2.STL
+-- Installing: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/meshes/eslabon_superior.STL
+-- Installing: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/meshes/eslabon_inferior.STL
+-- Installing: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/meshes/base.STL
+-- Installing: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/meshes/dedo_1.STL
+-- Installing: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/urdf
+-- Installing: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/urdf/ensamble_general_urdf.csv
+-- Installing: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/urdf/ensamble_general_urdf.urdf
+-- Installing: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ament_index/resource_index/package_run_dependencies/ensamble_general_urdf
+-- Installing: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ament_index/resource_index/parent_prefix_path/ensamble_general_urdf
+-- Installing: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/environment/ament_prefix_path.sh
+-- Installing: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/environment/ament_prefix_path.dsv
+-- Installing: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/environment/path.sh
+-- Installing: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/environment/path.dsv
+-- Installing: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/local_setup.bash
+-- Installing: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/local_setup.sh
+-- Installing: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/local_setup.zsh
+-- Installing: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/local_setup.dsv
+-- Installing: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/package.dsv
+-- Installing: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ament_index/resource_index/packages/ensamble_general_urdf
+-- Installing: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/cmake/ensamble_general_urdfConfig.cmake
+-- Installing: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/cmake/ensamble_general_urdfConfig-version.cmake
+-- Installing: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/package.xml

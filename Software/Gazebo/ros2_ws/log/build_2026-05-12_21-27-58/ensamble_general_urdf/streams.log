@@ -1,0 +1,53 @@
+[0.011s] Invoking command in '/home/laura/ros2_ws/build/ensamble_general_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/laura/ros2_ws/src/ensamble_general_urdf -DCMAKE_INSTALL_PREFIX=/home/laura/ros2_ws/install/ensamble_general_urdf
+[0.068s] -- The C compiler identification is GNU 13.3.0
+[0.129s] -- The CXX compiler identification is GNU 13.3.0
+[0.144s] -- Detecting C compiler ABI info
+[0.238s] -- Detecting C compiler ABI info - done
+[0.247s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.248s] -- Detecting C compile features
+[0.248s] -- Detecting C compile features - done
+[0.256s] -- Detecting CXX compiler ABI info
+[0.360s] -- Detecting CXX compiler ABI info - done
+[0.368s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.369s] -- Detecting CXX compile features
+[0.369s] -- Detecting CXX compile features - done
+[0.384s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.531s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.725s] -- Configuring done (0.7s)
+[0.727s] -- Generating done (0.0s)
+[0.729s] -- Build files have been written to: /home/laura/ros2_ws/build/ensamble_general_urdf
+[0.733s] Invoked command in '/home/laura/ros2_ws/build/ensamble_general_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/laura/ros2_ws/src/ensamble_general_urdf -DCMAKE_INSTALL_PREFIX=/home/laura/ros2_ws/install/ensamble_general_urdf
+[0.734s] Invoking command in '/home/laura/ros2_ws/build/ensamble_general_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/laura/ros2_ws/build/ensamble_general_urdf -- -j8 -l8
+[0.770s] Invoked command in '/home/laura/ros2_ws/build/ensamble_general_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/laura/ros2_ws/build/ensamble_general_urdf -- -j8 -l8
+[0.779s] Invoking command in '/home/laura/ros2_ws/build/ensamble_general_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/laura/ros2_ws/build/ensamble_general_urdf
+[0.786s] -- Install configuration: ""
+[0.786s] -- Installing: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/launch
+[0.787s] -- Installing: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/launch/display.launch.py
+[0.787s] -- Installing: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/launch/gazebo.launch.py
+[0.787s] -- Installing: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/meshes
+[0.787s] -- Installing: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/meshes/soporte_pinza.STL
+[0.788s] -- Installing: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/meshes/base_giratoria.STL
+[0.789s] -- Installing: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/meshes/dedo_2.STL
+[0.790s] -- Installing: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/meshes/eslabon_superior.STL
+[0.791s] -- Installing: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/meshes/eslabon_inferior.STL
+[0.791s] -- Installing: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/meshes/base.STL
+[0.793s] -- Installing: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/meshes/dedo_1.STL
+[0.794s] -- Installing: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/urdf
+[0.794s] -- Installing: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/urdf/ensamble_general_urdf.csv
+[0.794s] -- Installing: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/urdf/ensamble_general_urdf.urdf
+[0.794s] -- Installing: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ament_index/resource_index/package_run_dependencies/ensamble_general_urdf
+[0.794s] -- Installing: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ament_index/resource_index/parent_prefix_path/ensamble_general_urdf
+[0.795s] -- Installing: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/environment/ament_prefix_path.sh
+[0.795s] -- Installing: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/environment/ament_prefix_path.dsv
+[0.795s] -- Installing: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/environment/path.sh
+[0.795s] -- Installing: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/environment/path.dsv
+[0.795s] -- Installing: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/local_setup.bash
+[0.795s] -- Installing: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/local_setup.sh
+[0.795s] -- Installing: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/local_setup.zsh
+[0.795s] -- Installing: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/local_setup.dsv
+[0.796s] -- Installing: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/package.dsv
+[0.796s] -- Installing: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ament_index/resource_index/packages/ensamble_general_urdf
+[0.796s] -- Installing: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/cmake/ensamble_general_urdfConfig.cmake
+[0.796s] -- Installing: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/cmake/ensamble_general_urdfConfig-version.cmake
+[0.796s] -- Installing: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/package.xml
+[0.798s] Invoked command in '/home/laura/ros2_ws/build/ensamble_general_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/laura/ros2_ws/build/ensamble_general_urdf

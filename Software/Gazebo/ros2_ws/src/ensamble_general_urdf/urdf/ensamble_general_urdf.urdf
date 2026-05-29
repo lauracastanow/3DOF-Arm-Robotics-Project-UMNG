@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<robot name="ensamble_general_urdf">
+
+  <link name="world"/>
+  
+  <joint name="fixed_base" type="fixed">
+    <parent link="world"/>
+    <child link="base"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <link name="base">
+    <inertial>
+      <origin xyz="0.010178 0.038491 -0.014831" rpy="0 0 0" />
+      <mass value="2.0149" />
+      <inertia ixx="0.0085235" ixy="-0.00017067" ixz="5.7052E-06" iyy="0.0060164" iyz="7.0109E-07" izz="0.013833" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry><mesh filename="package://ensamble_general_urdf/meshes/base.STL" /></geometry>
+      <material name=""><color rgba="0.79216 0.81961 0.93333 1" /></material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry><mesh filename="package://ensamble_general_urdf/meshes/base.STL" /></geometry>
+    </collision>
+  </link>
+
+  <link name="base_giratoria">
+    <inertial>
+      <origin xyz="0.00033752 -0.001741 0.072369" rpy="0 0 0" />
+      <mass value="0.27811" />
+      <inertia ixx="0.00049503" ixy="8.8993E-06" ixz="8.5811E-07" iyy="0.00045597" iyz="-3.449E-06" izz="0.00066548" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry><mesh filename="package://ensamble_general_urdf/meshes/base_giratoria.STL" /></geometry>
+      <material name=""><color rgba="1 1 1 1" /></material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry><mesh filename="package://ensamble_general_urdf/meshes/base_giratoria.STL" /></geometry>
+    </collision>
+  </link>
+
+  <joint name="joint_1" type="revolute">
+    <origin xyz="0 0 0" rpy="0 0 0" />
+    <parent link="base" />
+    <child link="base_giratoria" />
+    <axis xyz="0 0 1" />
+    <limit lower="-3.142" upper="3.142" effort="100" velocity="2" />
+    <dynamics damping="10.0" friction="1.0"/>
+  </joint>
+
+  <link name="eslabon_inferior">
+    <inertial>
+      <origin xyz="1.5352E-05 -0.10329 -0.0044136" rpy="0 0 0" />
+      <mass value="0.41558" />
+      <inertia ixx="0.0018786" ixy="2.3501E-07" ixz="-6.101E-09" iyy="0.00029838" iyz="4.1124E-05" izz="0.001729" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry><mesh filename="package://ensamble_general_urdf/meshes/eslabon_inferior.STL" /></geometry>
+      <material name=""><color rgba="0.79216 0.81961 0.93333 1" /></material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry><mesh filename="package://ensamble_general_urdf/meshes/eslabon_inferior.STL" /></geometry>
+    </collision>
+  </link>
+
+  <joint name="joint_2" type="revolute">
+    <origin xyz="-0.000747 0.0031495 0.1265" rpy="-1.5708 0 0.21508" />
+    <parent link="base_giratoria" />
+    <child link="eslabon_inferior" />
+    <axis xyz="0 0 1" />
+    <limit lower="-1.57" upper="1.57" effort="100" velocity="2" />
+    <dynamics damping="15.0" friction="2.0"/>
+  </joint>
+
+  <link name="eslabon_superior">
+    <inertial>
+      <origin xyz="0.045973 0.0091436 0.0037482" rpy="0 0 0" />
+      <mass value="0.10171" />
+      <inertia ixx="2.2964E-05" ixy="-1.8224E-05" ixz="3.239E-06" iyy="0.00013717" iyz="1.3359E-06" izz="0.00014073" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry><mesh filename="package://ensamble_general_urdf/meshes/eslabon_superior.STL" /></geometry>
+      <material name=""><color rgba="0.79216 0.81961 0.93333 1" /></material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry><mesh filename="package://ensamble_general_urdf/meshes/eslabon_superior.STL" /></geometry>
+    </collision>
+  </link>
+
+  <joint name="joint_3" type="revolute">
+    <origin xyz="2.6757E-05 -0.18 -0.0027601" rpy="0 0.075039 -0.10127" />
+    <parent link="eslabon_inferior" />
+    <child link="eslabon_superior" />
+    <axis xyz="-0.074969 0 0.99719" />
+    <limit lower="0" upper="1.57" effort="100" velocity="2" />
+    <dynamics damping="10.0" friction="1.0"/>
+  </joint>
+
+  <link name="soporte_pinza">
+    <inertial>
+      <origin xyz="0.013114 0.0050536 0.0047901" rpy="0 0 0" />
+      <mass value="0.012112" />
+      <inertia ixx="9.8016E-07" ixy="-1.2907E-07" ixz="8.2249E-08" iyy="1.2854E-06" iyz="5.9575E-08" izz="8.0378E-07" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry><mesh filename="package://ensamble_general_urdf/meshes/soporte_pinza.STL" /></geometry>
+      <material name=""><color rgba="0.79216 0.81961 0.93333 1" /></material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry><mesh filename="package://ensamble_general_urdf/meshes/soporte_pinza.STL" /></geometry>
+    </collision>
+  </link>
+
+  <joint name="joint_4" type="fixed">
+    <origin xyz="0.093465 0.04227 0.0047203" rpy="-1.4926 -0.33132 -1.4222" />
+    <parent link="eslabon_superior" />
+    <child link="soporte_pinza" />
+    <axis xyz="0 0 0" />
+    <limit lower="0" upper="0" effort="100" velocity="2" />
+  </joint>
+
+  <link name="dedo_1">
+    <inertial>
+      <origin xyz="0.022829 -0.0090327 0.0026146" rpy="0 0 0" />
+      <mass value="0.0031986" />
+      <inertia ixx="6.055E-08" ixy="-4.8228E-08" ixz="2.7123E-10" iyy="2.6162E-07" iyz="-1.4137E-10" izz="2.8917E-07" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry><mesh filename="package://ensamble_general_urdf/meshes/dedo_1.STL" /></geometry>
+      <material name=""><color rgba="0.79216 0.81961 0.93333 1" /></material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry><mesh filename="package://ensamble_general_urdf/meshes/dedo_1.STL" /></geometry>
+    </collision>
+  </link>
+
+  <joint name="joint_5" type="revolute">
+    <origin xyz="-0.0065469 0.0092105 0.0059454" rpy="-1.5708 -1.4417 -1.2515" />
+    <parent link="soporte_pinza" />
+    <child link="dedo_1" />
+    <axis xyz="0 0 -1" />
+    <limit lower="0" upper="0.8" effort="10" velocity="1" />
+    <dynamics damping="1.0" friction="1.0"/>
+  </joint>
+
+  <link name="dedo_2">
+    <inertial>
+      <origin xyz="0.024055 0.012408 -0.0014123" rpy="0 0 0" />
+      <mass value="0.0031653" />
+      <inertia ixx="6.32E-08" ixy="4.7422E-08" ixz="-2.749E-10" iyy="2.6133E-07" iyz="-1.2481E-10" izz="2.916E-07" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry><mesh filename="package://ensamble_general_urdf/meshes/dedo_2.STL" /></geometry>
+      <material name=""><color rgba="0.79216 0.81961 0.93333 1" /></material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry><mesh filename="package://ensamble_general_urdf/meshes/dedo_2.STL" /></geometry>
+    </collision>
+  </link>
+
+  <joint name="joint_6" type="revolute">
+    <origin xyz="-0.001258 -0.0004159 0.0058" rpy="-1.5708 -1.305 -1.2515" />
+    <parent link="soporte_pinza" />
+    <child link="dedo_2" />
+    <axis xyz="0 0 -1" />
+    <limit lower="-0.8" upper="0" effort="10" velocity="1" />
+    <dynamics damping="1.0" friction="1.0"/>
+  </joint>
+
+  <gazebo>
+    <plugin filename="gz-sim-joint-state-publisher-system" name="gz::sim::systems::JointStatePublisher">
+      <joint_name>joint_1</joint_name>
+      <joint_name>joint_2</joint_name>
+      <joint_name>joint_3</joint_name>
+      <joint_name>joint_5</joint_name>
+      <joint_name>joint_6</joint_name>
+    </plugin>
+    
+    <plugin filename="gz-sim-joint-position-controller-system" name="gz::sim::systems::JointPositionController">
+      <joint_name>joint_1</joint_name><topic>/model/ensamble_general_urdf/joint/joint_1/cmd_pos</topic>
+      <p_gain>1000</p_gain><d_gain>50</d_gain> 
+    </plugin>
+    <plugin filename="gz-sim-joint-position-controller-system" name="gz::sim::systems::JointPositionController">
+      <joint_name>joint_2</joint_name><topic>/model/ensamble_general_urdf/joint/joint_2/cmd_pos</topic>
+      <p_gain>2000</p_gain><d_gain>100</d_gain>
+    </plugin>
+    <plugin filename="gz-sim-joint-position-controller-system" name="gz::sim::systems::JointPositionController">
+      <joint_name>joint_3</joint_name><topic>/model/ensamble_general_urdf/joint/joint_3/cmd_pos</topic>
+      <p_gain>1000</p_gain><d_gain>50</d_gain>
+    </plugin>
+    <plugin filename="gz-sim-joint-position-controller-system" name="gz::sim::systems::JointPositionController">
+      <joint_name>joint_5</joint_name><topic>/model/ensamble_general_urdf/joint/joint_5/cmd_pos</topic>
+      <p_gain>10</p_gain><d_gain>1</d_gain>
+    </plugin>
+    <plugin filename="gz-sim-joint-position-controller-system" name="gz::sim::systems::JointPositionController">
+      <joint_name>joint_6</joint_name><topic>/model/ensamble_general_urdf/joint/joint_6/cmd_pos</topic>
+      <p_gain>10</p_gain><d_gain>1</d_gain>
+    </plugin>
+  </gazebo>
+<gazebo>
+    <plugin filename="gz-sim-joint-position-controller-system" 
+            name="gz::sim::systems::JointPositionController">
+      <joint_name>joint_1</joint_name>
+      <topic>/model/ensamble_general_urdf/joint/joint_1/cmd_pos</topic>
+      <p_gain>1000.0</p_gain>
+      <i_gain>0.1</i_gain>
+      <d_gain>10.0</d_gain>
+    </plugin>
+  </gazebo>
+
+  <gazebo>
+    <plugin filename="gz-sim-joint-position-controller-system" 
+            name="gz::sim::systems::JointPositionController">
+      <joint_name>joint_2</joint_name>
+      <topic>/model/ensamble_general_urdf/joint/joint_2/cmd_pos</topic>
+      <p_gain>1000.0</p_gain>
+      <i_gain>0.1</i_gain>
+      <d_gain>10.0</d_gain>
+    </plugin>
+  </gazebo>
+
+  <gazebo>
+    <plugin filename="gz-sim-joint-position-controller-system" 
+            name="gz::sim::systems::JointPositionController">
+      <joint_name>joint_3</joint_name>
+      <topic>/model/ensamble_general_urdf/joint/joint_3/cmd_pos</topic>
+      <p_gain>1000.0</p_gain>
+      <i_gain>0.1</i_gain>
+      <d_gain>10.0</d_gain>
+    </plugin>
+  </gazebo>
+</robot>

@@ -1,0 +1,34 @@
+[0.012s] Invoking command in '/home/laura/ros2_ws/build/ensamble_general_urdf': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/laura/ros2_ws/build/ensamble_general_urdf -- -j8 -l8
+[0.069s] Invoked command in '/home/laura/ros2_ws/build/ensamble_general_urdf' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/laura/ros2_ws/build/ensamble_general_urdf -- -j8 -l8
+[0.087s] Invoking command in '/home/laura/ros2_ws/build/ensamble_general_urdf': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/laura/ros2_ws/build/ensamble_general_urdf
+[0.101s] -- Install configuration: ""
+[0.101s] -- Up-to-date: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/launch
+[0.102s] -- Up-to-date: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/launch/display.launch.py
+[0.102s] -- Up-to-date: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/launch/gazebo.launch.py
+[0.102s] -- Up-to-date: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/meshes
+[0.102s] -- Up-to-date: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/meshes/soporte_pinza.STL
+[0.103s] -- Up-to-date: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/meshes/base_giratoria.STL
+[0.103s] -- Up-to-date: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/meshes/dedo_2.STL
+[0.103s] -- Up-to-date: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/meshes/eslabon_superior.STL
+[0.103s] -- Up-to-date: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/meshes/eslabon_inferior.STL
+[0.103s] -- Up-to-date: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/meshes/base.STL
+[0.103s] -- Up-to-date: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/meshes/dedo_1.STL
+[0.104s] -- Up-to-date: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/urdf
+[0.104s] -- Up-to-date: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/urdf/ensamble_general_urdf.csv
+[0.104s] -- Installing: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/urdf/ensamble_general_urdf.urdf
+[0.104s] -- Up-to-date: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ament_index/resource_index/package_run_dependencies/ensamble_general_urdf
+[0.105s] -- Up-to-date: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ament_index/resource_index/parent_prefix_path/ensamble_general_urdf
+[0.105s] -- Up-to-date: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/environment/ament_prefix_path.sh
+[0.105s] -- Up-to-date: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/environment/ament_prefix_path.dsv
+[0.105s] -- Up-to-date: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/environment/path.sh
+[0.105s] -- Up-to-date: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/environment/path.dsv
+[0.105s] -- Up-to-date: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/local_setup.bash
+[0.106s] -- Up-to-date: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/local_setup.sh
+[0.106s] -- Up-to-date: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/local_setup.zsh
+[0.106s] -- Up-to-date: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/local_setup.dsv
+[0.106s] -- Up-to-date: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/package.dsv
+[0.106s] -- Up-to-date: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ament_index/resource_index/packages/ensamble_general_urdf
+[0.107s] -- Up-to-date: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/cmake/ensamble_general_urdfConfig.cmake
+[0.107s] -- Up-to-date: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/cmake/ensamble_general_urdfConfig-version.cmake
+[0.107s] -- Up-to-date: /home/laura/ros2_ws/install/ensamble_general_urdf/share/ensamble_general_urdf/package.xml
+[0.109s] Invoked command in '/home/laura/ros2_ws/build/ensamble_general_urdf' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/laura/ros2_ws/build/ensamble_general_urdf

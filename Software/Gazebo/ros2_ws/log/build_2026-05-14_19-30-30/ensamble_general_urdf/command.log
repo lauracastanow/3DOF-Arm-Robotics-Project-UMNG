@@ -1,0 +1,4 @@
+Invoking command in '/home/laura/ros2_ws/build/ensamble_general_urdf': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/laura/ros2_ws/build/ensamble_general_urdf -- -j8 -l8
+Invoked command in '/home/laura/ros2_ws/build/ensamble_general_urdf' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/laura/ros2_ws/build/ensamble_general_urdf -- -j8 -l8
+Invoking command in '/home/laura/ros2_ws/build/ensamble_general_urdf': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/laura/ros2_ws/build/ensamble_general_urdf
+Invoked command in '/home/laura/ros2_ws/build/ensamble_general_urdf' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/laura/ros2_ws/build/ensamble_general_urdf
